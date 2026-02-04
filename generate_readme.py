@@ -173,6 +173,8 @@ def main():
     lines = [
         "# Algorithm Solutions",
         "",
+        "[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=6kitty)](https://solved.ac/6kitty/)",
+        "",
         f"Total: **{len(problems)}문제**",
         "",
         "![Tier Stats](tier_stats.svg)",
