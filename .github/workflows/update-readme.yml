@@ -18,7 +18,7 @@ jobs:
         run: |
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git config user.name "GitHub Actions[bot]"
-          git add README.md
+          git add README.md tier_stats.svg
           if ! git diff --cached --quiet; then
             git commit -m "docs: auto-update README.md"
             git push
