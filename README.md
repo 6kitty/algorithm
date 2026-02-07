@@ -2,7 +2,7 @@
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=6kitty)](https://solved.ac/6kitty/)
 
-Total: **16문제**
+Total: **17문제**
 
 ![Tier Stats](tier_stats.svg)
 
@@ -15,6 +15,7 @@ Total: **16문제**
 | 10773 | 제로 | <img src="https://static.solved.ac/tier_small/7.svg" style="height:20px" /> Silver IV | [BOJ](https://boj.kr/10773) |
 | 10828 | 스택 | <img src="https://static.solved.ac/tier_small/7.svg" style="height:20px" /> Silver IV | [BOJ](https://boj.kr/10828) |
 | 10845 | 큐 | <img src="https://static.solved.ac/tier_small/7.svg" style="height:20px" /> Silver IV | [BOJ](https://boj.kr/10845) |
+| 10866 | 덱 | <img src="https://static.solved.ac/tier_small/7.svg" style="height:20px" /> Silver IV | [BOJ](https://boj.kr/10866) |
 | 1475 | 방 번호 | <img src="https://static.solved.ac/tier_small/6.svg" style="height:20px" /> Silver V | [BOJ](https://boj.kr/1475) |
 | 2577 | 숫자의 개수 | <img src="https://static.solved.ac/tier_small/4.svg" style="height:20px" /> Bronze II | [BOJ](https://boj.kr/2577) |
 | 2441 | 별 찍기 - 4 | <img src="https://static.solved.ac/tier_small/3.svg" style="height:20px" /> Bronze III | [BOJ](https://boj.kr/2441) |
