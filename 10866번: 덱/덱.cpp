@@ -16,14 +16,12 @@ using namespace std;
 
 const int MX=50000;
 int dat[MX*2+1];
-int head=MX-1, tail=MX;
+int head=MX, tail=MX;
 
 int n;
 int main(void){
     ios::sync_with_stdio(0);
     cin.tie(0);
-
-    fill(dat,MX*2+1,-1);
     cin>>n;
     while(n--){
         string inst;
@@ -38,11 +36,11 @@ int main(void){
             cin>>x;
             dat[tail++]=x;
         }
-        else if(inst=="pop_front") cout<<(tail-head==1 ? -1: dat[head++])>>'\n';
-        else if(inst=="pop_back") cout<<(tail-head==1 ? -1: dat[--tail])>>'\n';
-        else if(inst=="size") cout<<(tail-head==1 ? 1 : 0)<<'\n';
-        else if(inst=="empty") cout<<(tail-head==1 ? 1 : 0)<<'\n';
-        else if(inst=="front") cout<<(tail-head==1 ? -1 : dat[head]) <<'\n';
-        else cout<<(tail-head==1 ? -1 : dat[tail-1]) <<'\n';
+        else if(inst=="pop_front") cout<<(tail==head ? -1: dat[head++])<<'\n';
+        else if(inst=="pop_back") cout<<(tail==head ? -1: dat[--tail])<<'\n';
+        else if(inst=="size") cout<<(tail-head)<<'\n';
+        else if(inst=="empty") cout<<(tail==head ? 1 : 0)<<'\n';
+        else if(inst=="front") cout<<(tail==head ? -1 : dat[head]) <<'\n';
+        else cout<<(tail==head ? -1 : dat[tail-1]) <<'\n';
     } 
 }
