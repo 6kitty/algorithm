@@ -2,16 +2,21 @@
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=6kitty)](https://solved.ac/6kitty/)
 
-Total: **17문제**
+Total: **22문제**
 
 ![Tier Stats](tier_stats.svg)
 
 | 문제번호 | 문제 제목 | Tier | 문제 링크 |
 |:---:|:---|:---:|:---:|
+| 1020 | 디지털 카운터 | <img src="https://static.solved.ac/tier_small/18.svg" style="height:20px" /> Platinum III | [BOJ](https://boj.kr/1020) |
+| 1926 | 그림 | <img src="https://static.solved.ac/tier_small/10.svg" style="height:20px" /> Silver I | [BOJ](https://boj.kr/1926) |
+| 2178 | 미로 탐색 | <img src="https://static.solved.ac/tier_small/10.svg" style="height:20px" /> Silver I | [BOJ](https://boj.kr/2178) |
 | 1406 | 에디터 | <img src="https://static.solved.ac/tier_small/9.svg" style="height:20px" /> Silver II | [BOJ](https://boj.kr/1406) |
 | 5397 | 키로거 | <img src="https://static.solved.ac/tier_small/9.svg" style="height:20px" /> Silver II | [BOJ](https://boj.kr/5397) |
+| 1021 | 회전하는 큐 | <img src="https://static.solved.ac/tier_small/8.svg" style="height:20px" /> Silver III | [BOJ](https://boj.kr/1021) |
 | 3273 | 두 수의 합 | <img src="https://static.solved.ac/tier_small/8.svg" style="height:20px" /> Silver III | [BOJ](https://boj.kr/3273) |
 | 1158 | 요세푸스 문제 | <img src="https://static.solved.ac/tier_small/7.svg" style="height:20px" /> Silver IV | [BOJ](https://boj.kr/1158) |
+| 4949 | 균형잡힌 세상 | <img src="https://static.solved.ac/tier_small/7.svg" style="height:20px" /> Silver IV | [BOJ](https://boj.kr/4949) |
 | 10773 | 제로 | <img src="https://static.solved.ac/tier_small/7.svg" style="height:20px" /> Silver IV | [BOJ](https://boj.kr/10773) |
 | 10828 | 스택 | <img src="https://static.solved.ac/tier_small/7.svg" style="height:20px" /> Silver IV | [BOJ](https://boj.kr/10828) |
 | 10845 | 큐 | <img src="https://static.solved.ac/tier_small/7.svg" style="height:20px" /> Silver IV | [BOJ](https://boj.kr/10845) |
