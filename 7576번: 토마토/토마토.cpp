@@ -1,22 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                      :::    :::    :::     */
-/*   Problem Number: 2178                              :+:    :+:      :+:    */
+/*   Problem Number: 7576                              :+:    :+:      :+:    */
 /*                                                    +:+    +:+        +:+   */
 /*   By: 6kitty <boj.kr/u/6kitty>                    +#+    +#+          +#+  */
 /*                                                  +#+      +#+        +#+   */
-/*   https://boj.kr/2178                           #+#        #+#      #+#    */
-/*   Solved: 2026/02/10 21:11:30 by 6kitty        ###          ###   ##.kr    */
+/*   https://boj.kr/7576                           #+#        #+#      #+#    */
+/*   Solved: 2026/02/11 10:51:09 by 6kitty        ###          ###   ##.kr    */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include <bits/stdc++.h>
 using namespace std;
 #define X first
 #define Y second
 
-string tmp[101];
-int board[101][101];
+int board[1001][1001];
+int vis[1001][1001];
 
 int dx[4]={-1,0,1,0};
 int dy[4]={0,1,0,-1};
@@ -26,26 +25,39 @@ int main(void){
     cin.tie(0);
 
     int n,m;
-    cin>>n>>m;
-    for(int i=0;i<n;i++)
-        cin>>tmp[i]; //string형 tmp에 다 받기 
-    for(int i=0;i<n;i++) fill(board[i],board[i]+m,-1); //board에 다 -1로 채우기 
     queue<pair<int,int>> Q;
-    Q.push({0,0}); // 0,0부터 시작 (1,1)에서 출발하는 문제이니까 
-    board[0][0]=1; //방문 시작 1칸 
+    cin >> m >> n;
+    for(int i=0;i<n;i++){
+        for (int j=0; j<m;j++){
+            cin>>board[i][j];
+            if(board[i][j]==1) Q.push({i,j});
+            if(board[i][j]==0) vis[i][j]=-1;
+        }
+    }
 
     while(!Q.empty()){
-        auto cur=Q.front(); Q.pop();
+        auto cur = Q.front(); Q.pop();
         for(int dir=0;dir<4;dir++){
             int nx=cur.X+dx[dir];
             int ny=cur.Y+dy[dir];
 
             if(nx<0||nx>n-1||ny<0||ny>m-1) continue;
-            if(board[nx][ny]>0 || tmp[cur.X][cur.Y]!='1') continue; // tmp에서 1이 아니거나 board가 양수칸이거나 
+            if(vis[nx][ny]>=0) continue;
 
-            board[nx][ny]=board[cur.X][cur.Y]+1; //이전 칸의 누적칸 + 1칸 
+            vis[nx][ny]=vis[cur.X][cur.Y]+1;
             Q.push({nx,ny});
         }
     }
-    cout<<board[n-1][m-1];
+
+    int ans=0;
+    for(int i=0;i<n;i++){
+        for(int j=0;j<m;j++){
+            if(vis[i][j]==-1){
+                cout<<-1;
+                return 0;
+            }
+            ans=max(ans,vis[i][j]);
+        }
+    }
+    cout<<ans;
 }
