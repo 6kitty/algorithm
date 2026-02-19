@@ -1,64 +1,69 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="326" height="418">
-  <rect width="326" height="418" rx="8" fill="#f6f8fa" stroke="#e1e4e8"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="326" height="448">
+  <rect width="326" height="448" rx="8" fill="#f6f8fa" stroke="#e1e4e8"/>
   <text x="163.0" y="28" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="14" font-weight="600" fill="#24292e">Solved by Tier</text>
   <rect x="16" y="48" width="82" height="22" rx="4" fill="#70c7ba"/>
   <text x="57.0" y="63" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#fff">Platinum III</text>
   <rect x="108" y="51" width="180" height="16" rx="3" fill="#e1e4e8"/>
   <rect x="108" y="51" width="30" height="16" rx="3" fill="#70c7ba"/>
   <text x="298" y="64" font-family="Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#586069">1</text>
-  <rect x="16" y="78" width="82" height="22" rx="4" fill="#daa520"/>
-  <text x="57.0" y="93" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#444">Gold III</text>
+  <rect x="16" y="78" width="82" height="22" rx="4" fill="#70c7ba"/>
+  <text x="57.0" y="93" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#fff">Platinum IV</text>
   <rect x="108" y="81" width="180" height="16" rx="3" fill="#e1e4e8"/>
-  <rect x="108" y="81" width="30" height="16" rx="3" fill="#daa520"/>
+  <rect x="108" y="81" width="30" height="16" rx="3" fill="#70c7ba"/>
   <text x="298" y="94" font-family="Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#586069">1</text>
   <rect x="16" y="108" width="82" height="22" rx="4" fill="#daa520"/>
-  <text x="57.0" y="123" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#444">Gold V</text>
+  <text x="57.0" y="123" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#444">Gold III</text>
   <rect x="108" y="111" width="180" height="16" rx="3" fill="#e1e4e8"/>
   <rect x="108" y="111" width="30" height="16" rx="3" fill="#daa520"/>
   <text x="298" y="124" font-family="Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#586069">1</text>
-  <rect x="16" y="138" width="82" height="22" rx="4" fill="#c0c0c0"/>
-  <text x="57.0" y="153" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#444">Silver I</text>
+  <rect x="16" y="138" width="82" height="22" rx="4" fill="#daa520"/>
+  <text x="57.0" y="153" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#444">Gold V</text>
   <rect x="108" y="141" width="180" height="16" rx="3" fill="#e1e4e8"/>
-  <rect x="108" y="141" width="120" height="16" rx="3" fill="#c0c0c0"/>
-  <text x="298" y="154" font-family="Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#586069">4</text>
+  <rect x="108" y="141" width="60" height="16" rx="3" fill="#daa520"/>
+  <text x="298" y="154" font-family="Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#586069">2</text>
   <rect x="16" y="168" width="82" height="22" rx="4" fill="#c0c0c0"/>
-  <text x="57.0" y="183" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#444">Silver II</text>
+  <text x="57.0" y="183" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#444">Silver I</text>
   <rect x="108" y="171" width="180" height="16" rx="3" fill="#e1e4e8"/>
-  <rect x="108" y="171" width="60" height="16" rx="3" fill="#c0c0c0"/>
-  <text x="298" y="184" font-family="Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#586069">2</text>
+  <rect x="108" y="171" width="120" height="16" rx="3" fill="#c0c0c0"/>
+  <text x="298" y="184" font-family="Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#586069">4</text>
   <rect x="16" y="198" width="82" height="22" rx="4" fill="#c0c0c0"/>
-  <text x="57.0" y="213" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#444">Silver III</text>
+  <text x="57.0" y="213" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#444">Silver II</text>
   <rect x="108" y="201" width="180" height="16" rx="3" fill="#e1e4e8"/>
   <rect x="108" y="201" width="60" height="16" rx="3" fill="#c0c0c0"/>
   <text x="298" y="214" font-family="Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#586069">2</text>
   <rect x="16" y="228" width="82" height="22" rx="4" fill="#c0c0c0"/>
-  <text x="57.0" y="243" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#444">Silver IV</text>
+  <text x="57.0" y="243" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#444">Silver III</text>
   <rect x="108" y="231" width="180" height="16" rx="3" fill="#e1e4e8"/>
-  <rect x="108" y="231" width="180" height="16" rx="3" fill="#c0c0c0"/>
-  <text x="298" y="244" font-family="Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#586069">6</text>
+  <rect x="108" y="231" width="60" height="16" rx="3" fill="#c0c0c0"/>
+  <text x="298" y="244" font-family="Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#586069">2</text>
   <rect x="16" y="258" width="82" height="22" rx="4" fill="#c0c0c0"/>
-  <text x="57.0" y="273" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#444">Silver V</text>
+  <text x="57.0" y="273" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#444">Silver IV</text>
   <rect x="108" y="261" width="180" height="16" rx="3" fill="#e1e4e8"/>
-  <rect x="108" y="261" width="30" height="16" rx="3" fill="#c0c0c0"/>
-  <text x="298" y="274" font-family="Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#586069">1</text>
-  <rect x="16" y="288" width="82" height="22" rx="4" fill="#ad5600"/>
-  <text x="57.0" y="303" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#fff">Bronze II</text>
+  <rect x="108" y="261" width="180" height="16" rx="3" fill="#c0c0c0"/>
+  <text x="298" y="274" font-family="Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#586069">6</text>
+  <rect x="16" y="288" width="82" height="22" rx="4" fill="#c0c0c0"/>
+  <text x="57.0" y="303" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#444">Silver V</text>
   <rect x="108" y="291" width="180" height="16" rx="3" fill="#e1e4e8"/>
-  <rect x="108" y="291" width="30" height="16" rx="3" fill="#ad5600"/>
+  <rect x="108" y="291" width="30" height="16" rx="3" fill="#c0c0c0"/>
   <text x="298" y="304" font-family="Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#586069">1</text>
   <rect x="16" y="318" width="82" height="22" rx="4" fill="#ad5600"/>
-  <text x="57.0" y="333" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#fff">Bronze III</text>
+  <text x="57.0" y="333" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#fff">Bronze II</text>
   <rect x="108" y="321" width="180" height="16" rx="3" fill="#e1e4e8"/>
   <rect x="108" y="321" width="30" height="16" rx="3" fill="#ad5600"/>
   <text x="298" y="334" font-family="Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#586069">1</text>
   <rect x="16" y="348" width="82" height="22" rx="4" fill="#ad5600"/>
-  <text x="57.0" y="363" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#fff">Bronze IV</text>
+  <text x="57.0" y="363" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#fff">Bronze III</text>
   <rect x="108" y="351" width="180" height="16" rx="3" fill="#e1e4e8"/>
-  <rect x="108" y="351" width="90" height="16" rx="3" fill="#ad5600"/>
-  <text x="298" y="364" font-family="Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#586069">3</text>
+  <rect x="108" y="351" width="30" height="16" rx="3" fill="#ad5600"/>
+  <text x="298" y="364" font-family="Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#586069">1</text>
   <rect x="16" y="378" width="82" height="22" rx="4" fill="#ad5600"/>
-  <text x="57.0" y="393" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#fff">Bronze V</text>
+  <text x="57.0" y="393" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#fff">Bronze IV</text>
   <rect x="108" y="381" width="180" height="16" rx="3" fill="#e1e4e8"/>
   <rect x="108" y="381" width="90" height="16" rx="3" fill="#ad5600"/>
   <text x="298" y="394" font-family="Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#586069">3</text>
+  <rect x="16" y="408" width="82" height="22" rx="4" fill="#ad5600"/>
+  <text x="57.0" y="423" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#fff">Bronze V</text>
+  <rect x="108" y="411" width="180" height="16" rx="3" fill="#e1e4e8"/>
+  <rect x="108" y="411" width="90" height="16" rx="3" fill="#ad5600"/>
+  <text x="298" y="424" font-family="Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#586069">3</text>
 </svg>

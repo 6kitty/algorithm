@@ -2,15 +2,17 @@
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=6kitty)](https://solved.ac/6kitty/)
 
-Total: **26문제**
+Total: **28문제**
 
 ![Tier Stats](tier_stats.svg)
 
 | 문제번호 | 문제 제목 | Tier | 문제 링크 |
 |:---:|:---|:---:|:---:|
 | 1020 | 디지털 카운터 | <img src="https://static.solved.ac/tier_small/18.svg" style="height:20px" /> Platinum III | [BOJ](https://boj.kr/1020) |
+| 10000 | 원 영역 | <img src="https://static.solved.ac/tier_small/17.svg" style="height:20px" /> Platinum IV | [BOJ](https://boj.kr/10000) |
 | 4179 | 불! | <img src="https://static.solved.ac/tier_small/13.svg" style="height:20px" /> Gold III | [BOJ](https://boj.kr/4179) |
 | 7576 | 토마토 | <img src="https://static.solved.ac/tier_small/11.svg" style="height:20px" /> Gold V | [BOJ](https://boj.kr/7576) |
+| 11729 | 하노이 탑 이동 순서 | <img src="https://static.solved.ac/tier_small/11.svg" style="height:20px" /> Gold V | [BOJ](https://boj.kr/11729) |
 | 1629 | 곱셈 | <img src="https://static.solved.ac/tier_small/10.svg" style="height:20px" /> Silver I | [BOJ](https://boj.kr/1629) |
 | 1697 | 숨바꼭질 | <img src="https://static.solved.ac/tier_small/10.svg" style="height:20px" /> Silver I | [BOJ](https://boj.kr/1697) |
 | 1926 | 그림 | <img src="https://static.solved.ac/tier_small/10.svg" style="height:20px" /> Silver I | [BOJ](https://boj.kr/1926) |
