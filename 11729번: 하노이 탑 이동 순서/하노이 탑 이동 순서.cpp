@@ -6,42 +6,39 @@
 /*   By: 6kitty <boj.kr/u/6kitty>                    +#+    +#+          +#+  */
 /*                                                  +#+      +#+        +#+   */
 /*   https://boj.kr/11729                          #+#        #+#      #+#    */
-/*   Solved: 2026/02/15 21:24:18 by 6kitty        ###          ###   ##.kr    */
+/*   Solved: 2026/02/19 22:19:26 by 6kitty        ###          ###   ##.kr    */
 /*                                                                            */
 /* ************************************************************************** */
 #include <bits/stdc++.h>
 using namespace std;
-#define X first
-#define Y second
 
-queue<pair<int,int>> process;
+/*
+1. n-1개의 원판을 1에서 2로 옮기면 
+2. n번째 원판을 1에서 3으로 옮길 수 있고 
+3. 나머지 n-1개의 원판을 2에서 3으로 옮기면 된다 
+4. 그러면 base conditon은 2(1도 가능은 함)
+*/
 
-int cnt=0;
+int N,K;
 
-void hanoi(int n, int a, int b){
+void move_recur(int a, int b, int n){
     if(n==1){
-        cnt++;
-        process.push({a,b});
+        cout<<a<<' '<<b<<'\n';
+        return;
     }
-    return hanoi(n-1,a,b);
+
+    //n-1개를 b에서 b+1로 옮기기 
+    move_recur(a,6-a-b,n-1); 
+    cout<<a<<' '<<b<<'\n';
+    move_recur(6-a-b,b,n-1); 
 }
 
 int main(void){
     ios::sync_with_stdio(0);
     cin.tie(0);
 
-    int N;
     cin>>N;
-
-    for(int i=N;i>0;i--) gr1.push(i);
-
-    int cnt=0;
-    //1. n-1개의 원판을 기둥2로 옮기고 
-    //2. n의 원판을 기둥3으로 옮기고 
-    //3. 기둥2에 있던 n-1 원판을 기둥3으로 옮기기 
-
-    hanoi(N-1,1,2);
-    hanoi(1,1,3);
-    hanoi(N-1,2,3);
-    cout<<cnt<<'\n';
+    K=(1<<N)-1; //-> 이건 대입으로 찾는 게 나을듯 (하노이는 2^n-1 외우기)
+    cout<<K<<'\n';
+    move_recur(1,3,N);
 }
