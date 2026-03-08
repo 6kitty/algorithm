@@ -14,10 +14,43 @@
 
 using namespace std;
 
-const int MX=101;
-char dat[MX];
+int main(void) {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
 
+    while (true) {
+        string lineinput;
+        getline(cin, lineinput); // 한 줄 전체를 읽음
+        if (lineinput == ".") break;
 
-int main(void){
-    
+        stack<char> s;
+        string ans = "yes";
+
+        for (int i = 0; i < lineinput.size(); i++) {
+            char c = lineinput[i];
+
+            if (c == '(' || c == '[') {
+                s.push(c);
+            } 
+            else if (c == ')') {
+                if (s.empty() || s.top() != '(') {
+                    ans = "no";
+                    break;
+                }
+                s.pop();
+            } 
+            else if (c == ']') {
+                if (s.empty() || s.top() != '[') {
+                    ans = "no";
+                    break;
+                }
+                s.pop();
+            }
+        }
+        //stack에 남은 게 없어야 함 
+        if (!s.empty()) ans = "no";
+
+        cout << ans << '\n';
+    }
+    return 0;
 }
